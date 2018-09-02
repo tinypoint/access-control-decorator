@@ -2,7 +2,7 @@
   "name": "access-control-decorator",
   "version": "1.0.1",
   "description": "An access-control-decorator baesd on React and React-Router@4.x to prevent user access page from invalid routes.",
-  "main": "index.js",
+  "main": "index.es5.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
