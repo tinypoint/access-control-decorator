@@ -1,0 +1,20 @@
+{
+  "name": "access-control-decorator",
+  "version": "1.0.0",
+  "description": "An access-control-decorator baesd on React and React-Router@4.x to prevent user access page from invalid routes.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Access-control-decorator",
+    "React",
+    "React-Router"
+  ],
+  "author": "tinypoint",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^16.4.2",
+    "react-router": "^4.3.1"
+  }
+}
