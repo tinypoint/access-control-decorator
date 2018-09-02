@@ -1,10 +1,11 @@
 {
   "name": "access-control-decorator",
-  "version": "1.0.3",
+  "version": "1.0.0",
   "description": "An access-control-decorator baesd on React and React-Router@4.x to prevent user access page from invalid routes.",
-  "main": "index.es5.js",
+  "main": "dist/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "babel src --out-dir dist",
+    "prepublish": "npm run build"
   },
   "keywords": [
     "Access-control-decorator",
@@ -16,5 +17,11 @@
   "dependencies": {
     "react": "^16.4.2",
     "react-router": "^4.3.1"
+  },
+  "devDependencies": {
+    "babel": "^6.23.0",
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1"
   }
 }
